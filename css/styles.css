@@ -1,3 +1,7 @@
+.list{
+    list-style: none;
+    text-decoration: none;
+}
 ul  {
     list-style: none;
 }
@@ -16,19 +20,20 @@ ul  {
 .button-exclusive {
     color: var(--primeri-button-color);
     background-color: var(--accent-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .button-exclusive:hover,
 .button-exclusive:focus{
     background-color: var(--button-hover);
         color: #FFFFFF;
-        font-family: 'Roboto';
+        ffont-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -40,7 +45,7 @@ ul  {
 .button-gallery{
     background-color: var(--primeri-button-color);
     color: var(--accent-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -52,7 +57,7 @@ ul  {
 .button-gallery:focus{
     background-color:var(--button-hover) ;
     color: #FFFFFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -62,23 +67,27 @@ ul  {
 }
 /* style header */
 .logo {
-    font-family: 'Raleway';
+    color: var(--accent-color);
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1,5;
+        line-height: 1,17;
+        letter-spacing: 0.03em
+        text-transform: uppercase;
+
 }
 .logo, .logo:hover, .logo:focus {
-    color: #2E2F42;
+    color: var(--accent-color);
 }
 .logo-color {
    
-    color: var(--accent-color);
+    color: var(--title-color);
 }
 
 .nav-site{
     color: var(--title-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -94,7 +103,7 @@ ul  {
 }
  .nav-address{
     color: rgba(67, 68, 85, 1);;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -121,7 +130,8 @@ body {
 }
 .main-title{
     color: #FFFFFF;
-font-family: 'Roboto', sans-serif;        font-style: normal;
+font-family: 'Roboto', sans-serif;   
+     font-style: normal;
         font-weight: 700;
         font-size: 56px;
         text-align: center;
