@@ -13,14 +13,14 @@ ul  {
     --title-color: rgba(46, 47, 66, 1);
     --content-color: rgba(67, 68, 85, 1);
     --accent-color:rgba(77, 90, 229, 1);
-    --primeri-button-color:rgba(255, 255, 255, 1);
     --bcg-color:rgba(46, 47, 66, 1);
     --button-hover: rgba(64, 75, 191, 1);
-  
+    --standart-wite: #FFFFFF;
+    --fotter-text:rgb(231, 233, 252);
 }
 /* style button */
 .button-exclusive {
-    color: var(--primeri-button-color);
+    color: var(--standart-wite);
     background-color: var(--accent-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -34,13 +34,8 @@ ul  {
 .button-exclusive:hover,
 .button-exclusive:focus{
     background-color: var(--button-hover);
-        color: #FFFFFF;
-        ffont-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        cursor: pointer;
+        color: var(--standart-wite);
+        
 
 }
 
@@ -59,15 +54,7 @@ ul  {
 .button-gallery:hover,
 .button-gallery:focus{
     background-color:var(--button-hover) ;
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        cursor: pointer;
-        letter-spacing: 0.04em;
-
+    color: var(--standart-wite);
 }
 /* style header */
 .logo{
@@ -78,7 +65,7 @@ color: var(--accent-color);
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 .logo, .logo:hover, .logo:focus {
     color: var(--accent-color);
@@ -90,22 +77,23 @@ color: var(--accent-color);
 
 .nav-site{
     color: var(--title-color);
-    font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        etter-spacing: 0.02em;
-}
-.nav-link{
 
 }
-.nav-site .nav-link {
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    etter-spacing: 0.02em;
+
+}
+.nav-link {
     color: var(--title-color)
 
 }
-.nav-site .nav-link:hover,
-.nav-site .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--button-hover);
     
 }
@@ -113,9 +101,8 @@ color: var(--accent-color);
     font-style: normal;
 }
  .address-link{
-    color: rgba(67, 68, 85, 1);;
+    color: var(--content-color);
     font-family: 'Roboto', sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -131,8 +118,6 @@ color: var(--accent-color);
 body {
     color: var(--content-color);
         font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -141,9 +126,7 @@ body {
     background-color: var(--bcg-color)
 }
 .main-title{
-    color: #FFFFFF;
-font-family: 'Roboto', sans-serif;   
-     font-style: normal;
+    color: var(--standart-wite);
         font-weight: 700;
         font-size: 56px;
         text-align: center;
@@ -153,8 +136,6 @@ font-family: 'Roboto', sans-serif;
 
 .section-title {
    color: var(--title-color);
-font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -166,8 +147,6 @@ font-family: 'Roboto', sans-serif;
 
 .content-title {
     color: var(--title-color);
-font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -177,12 +156,14 @@ font-family: 'Roboto', sans-serif;
 
 .discription-img{
     color: var(--content-color);
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+
+.our-team{
+    background-color: var(--fotter-text);
 }
 /* style footer */
 
@@ -191,14 +172,9 @@ font-family: 'Roboto', sans-serif;
 
 }
 .footer-content{
-color: #E7E9FC ;
-font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+color: var(--fotter-text);
+    
 }
 .logo-footer{
-color: #F4F4FD;
+color: var(--fotter-text);
 }
