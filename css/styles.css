@@ -10,13 +10,14 @@ ul  {
 
 :root {
 
-    --title-color: rgba(46, 47, 66, 1);
-    --content-color: rgba(67, 68, 85, 1);
-    --accent-color:rgba(77, 90, 229, 1);
-    --bcg-color:rgba(46, 47, 66, 1);
-    --button-hover: rgba(64, 75, 191, 1);
+    --title-color: #2e2f42;
+    --content-color: #434455;
+    --accent-color:#4d5ae5;
+    --bcg-color:#2e2f42;
+    --button-hover: #404bbf;
     --standart-wite: #FFFFFF;
-    --fotter-text:rgb(231, 233, 252);
+    --fotter-text:#e7e9fc;
+    --fotter-span: #f4f4fd;
 }
 /* style button */
 .button-exclusive {
@@ -175,5 +176,5 @@ color: var(--fotter-text);
     
 }
 .logo-footer{
-color: var(--fotter-text);
+color: var(--fotter-span);
 }
